@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll" parallel="tests">
+
+    <test name="S1">
+        <parameter name="devName" value="42005e38a86c74d7"/>
+        <parameter name="sysPort" value="8201"/>
+        <classes>
+            <class name="main.ALotOfSwipes" />
+        </classes>
+    </test>
+
+    <test name="S2">
+        <parameter name="devName" value="b4149e10"/>
+        <parameter name="sysPort" value="8202"/>
+        <classes>
+            <class name="main.ALotOfSwipes" />
+        </classes>
+    </test>
+
+</suite>
